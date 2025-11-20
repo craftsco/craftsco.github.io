@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Crafts Co. s.r.o. - Kontakt</title>
+
+  <meta name="description" content="Kontaktujte naši firmu Crafts Co. s.r.o. pro odborné instalace, opravy, topení a plynová zařízení.">
+  <meta name="keywords" content="kontakt, telefon, email, adresa, instalace, topení, plyn">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Kontakt – Crafts Co. s.r.o.">
+  <meta property="og:description" content="Kontaktujte naši firmu pro instalace, opravy, topení a plynová zařízení.">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-left"><a href="index.html"><img src="IMG-20251114-WA0000.jpg" alt="Logo"> </a></div>
+  <div class="hamburger"><i class="fas fa-bars"></i></div>
+  <ul class="nav-links">
+    <li><a href="index.html"><i class="fas fa-home"></i> O nás</a></li>
+    <li><a href="projekty.html"><i class="fas fa-project-diagram"></i> Projekty</a></li>
+    <li><a href="portfolio.html"><i class="fas fa-wrench"></i> Portfolio</a></li>
+    <li><a href="kontakt.html" class="active"><i class="fas fa-envelope"></i> Kontakt</a></li>
+  </ul>
+  <div class="contact-info">
+    <div><i class="fas fa-map-marker-alt"></i> Jana Nepomuckého 19, Chrášťany</div>
+    <div><i class="fas fa-phone"></i> +420 735 125 909</div>
+    <div><i class="fas fa-envelope"></i> stejfova@crafts-co.cz</div>
+  </div>
+</nav>
+
+<section class="section animate">
+  <h2>Kontaktujte nás</h2>
+  <p>Máte dotaz nebo potřebujete cenovou nabídku? Kontaktujte nás a náš tým odborníků vám poradí. ⭐</p>
+
+  <div class="grid-3">
+    <div class="box animate">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Adresa</h3>
+      <p><br>Jana Nepomuckého 19<br>252 19 Chrášťany</p>
+      <p>IČO: 28948963</p>
+    </div>
+    <div class="box animate">
+      <i class="fas fa-phone"></i>
+      <h3>Telefon</h3>
+      <p>Eliška Štejfová</p>
+      <p>Jednatel</p>
+      <p><a href="tel:+420123456789">+420 735 125 909</a></p>
+    </div>
+    <div class="box animate">
+      <i class="fas fa-envelope"></i>
+      <h3>Email</h3>
+      <p>Eliška Štejfová</p>
+      <p>Jednatel</p>
+      <p><a href="mailto:stejfova@crafts-co.cz">stejfova@crafts-co.cz</a></p>
+    </div>
+  </div>
+
+  <p style="text-align:center; margin-bottom:16px;">Máte dotaz, potřebujete rychlou pomoc, nebo si přejete nezávaznou cenovou nabídku?
+Jsme vám k dispozici každý pracovní den. Napište nám prostřednictvím formuláře a ozveme se vám co nejdříve. Pole označená * jsou povinná.</p>
+
+  <!-- ⭐ Formulář bez akce – JS otevře mail klienta -->
+  <form id="contact-form" class="animate">
+    <label>Jméno *</label>
+    <input type="text" id="name" required placeholder="Vaše jméno">
+
+    <label>Email *</label>
+    <input type="email" id="email" required placeholder="Váš email">
+
+    <label>Telefon *</label>
+    <input type="tel" id="phone" required placeholder="Váš telefon">
+
+    <label>Zpráva *</label>
+    <textarea id="message" rows="5" required placeholder="Vaše zpráva"></textarea>
+    <div class="gdpr-box">
+    <input type="checkbox" id="gdpr" required>
+    <label for="gdpr">
+    Souhlasím se zpracováním osobních údajů za účelem vyřízení mého dotazu.
+    </label>
+</div>
+
+    <button type="submit">Odeslat</button>
+  </form>
+
+</section>
+
+<section class="section animate">
+  <h2>Najděte nás na mapě</h2>
+  <p>Sídlíme na adrese Jana Nepomuckého 19 v Chrášťanech. Pro snadné plánování cesty stačí kliknout na mapu a otevře se vám navigace.</p>
+  <div class="map animate">
+    <iframe src="https://www.google.com/maps?q=Jana+Nepomuck%C3%A9ho+19,+252+19+Chr%C3%A1%C5%A1%C5%A5any&output=embed"
+      width="100%" height="350" style="border:0;" loading="lazy"></iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-contact">
+    <div><i class="fas fa-map-marker-alt"></i> Jana Nepomuckého 19, 252 19 Chrášťany, IČO: 28948963</div>
+    <div><i class="fas fa-phone"></i> +420 735 125 909</div>
+    <div><i class="fas fa-envelope"></i> stejfova@crafts-co.cz</div>
+    <div>© <span id="current-year"></span> Crafts Co. s.r.o.</div>
+  </div>
+  <div class="social">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
