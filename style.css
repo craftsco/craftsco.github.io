@@ -395,23 +395,25 @@ footer{
   height: 18px;
 }
 
-.cta-button {
+.cta-gradient {
   display: inline-block;
-  margin-top: 25px;
-  padding: 14px 28px;
-  background-color: #0077ff;
-  color: #fff;
-  font-size: 1.2rem;
+  margin-top: 30px;
+  padding: 15px 32px;
+  font-size: 1.25rem;
+  font-weight: 600;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: #fff;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0077ff, #00b3ff);
+  box-shadow: 0 10px 26px rgba(0, 119, 255, 0.25);
+  transition: transform .3s ease, box-shadow .3s ease;
 }
 
-.cta-button:hover {
-  background-color: #005fcc;
-  transform: translateY(-2px);
+.cta-gradient:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(0, 119, 255, 0.35);
 }
+
+
 
 
