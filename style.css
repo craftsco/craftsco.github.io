@@ -419,6 +419,38 @@ footer{
   margin: 50px 0 20px;
 }
 
+.cta-section {
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #f8fafc; /* velmi jemné světle šedé pozadí */
+  border-top: 1px solid #e6e9ef;
+  border-bottom: 1px solid #e6e9ef;
+}
+
+.cta-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: var(--text);
+}
+
+.cta-section p {
+  max-width: 700px;
+  margin: 0 auto 32px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* CTA tlačítko už máš – jen pro jistotu verze pro tuto sekci */
+.cta-section .cta-gradient {
+  padding: 16px 38px;
+  font-size: 1.25rem;
+}
+
+
+
 
 
 
