@@ -394,3 +394,24 @@ footer{
   width: 18px;
   height: 18px;
 }
+
+.cta-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.cta-button:hover {
+  background-color: #005fcc;
+  transform: translateY(-2px);
+}
+
+
