@@ -420,11 +420,18 @@ footer{
 }
 
 .cta-section {
-  text-align: center;
-  padding: 60px 20px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  background: #f8fafc; /* velmi jemné světle šedé pozadí */
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* centrování horizontálně */
+  text-align: center;         /* centrování textu */
+  
+  padding: 60px 20px;         /* vnitřní odsazení */
+  margin: 40px auto 60px;     /* horní mezera od předchozí sekce + spodní mezera */
+  
+  max-width: var(--max-width);
+  background: #f8fafc;        /* jemné odlišení od ostatních sekcí */
+  border-radius: 12px;        /* podobně jako jiné sekce */
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
   border-top: 1px solid #e6e9ef;
   border-bottom: 1px solid #e6e9ef;
 }
@@ -443,7 +450,7 @@ footer{
   line-height: 1.6;
 }
 
-/* CTA tlačítko už máš – jen pro jistotu verze pro tuto sekci */
+/* CTA tlačítko */
 .cta-section .cta-gradient {
   padding: 16px 38px;
   font-size: 1.25rem;
