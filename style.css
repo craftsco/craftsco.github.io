@@ -127,10 +127,9 @@ nav{
 
 /* ========== GRID ========== */
 .grid-3{
-  display:grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap:24px;
-  margin-bottom:30px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
 }
 
 
@@ -462,6 +461,7 @@ footer{
   padding: 16px 38px;
   font-size: 1.25rem;
 }
+
 
 
 
