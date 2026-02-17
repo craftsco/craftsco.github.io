@@ -461,6 +461,26 @@ footer{
   font-size: 1.25rem;
 }
 
+/* Kontakt – 4 boxy na desktopu, 2 na menších obrazovkách, 1 na mobilu */
+.grid-contact {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1100px) {
+  .grid-contact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-contact {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 
 
