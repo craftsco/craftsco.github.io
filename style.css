@@ -128,9 +128,11 @@ nav{
 /* ========== GRID ========== */
 .grid-3{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:24px;margin-bottom:30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap:24px;
+  margin-bottom:30px;
 }
+
 
 /* ====== SPECIALIZACE – MODERNÍ KARTY ====== */
 .specializace-grid {
@@ -460,6 +462,7 @@ footer{
   padding: 16px 38px;
   font-size: 1.25rem;
 }
+
 
 
 
